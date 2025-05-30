@@ -1,12 +1,19 @@
-# React + Vite
+# React Simple Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a simple React application demonstrating essential React concepts:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Context Provider** for shared state management.
+- **Layout** component that includes **Nav** for navigation and **Outlet** for rendering routed content.
+- Usage of **useState** for managing local component state.
+- Usage of **useEffect** for side effects like updating UI or fetching data.
 
-## Expanding the ESLint configuration
+The project is designed to showcase clean component structure and basic state management in React.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Context-based state management across components.
+- Navigation bar with dynamic routing.
+- Functional components using React hooks (`useState`, `useEffect`).
+- Organized layout structure for scalable app design.
