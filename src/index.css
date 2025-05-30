@@ -1,0 +1,169 @@
+body {
+  padding-top: 70px;
+}
+
+/* * Style Navbar Component */
+.active {
+  border-radius: 10px !important;
+  transition: all 0.5s;
+  background-color: #ac8b6f !important;
+}
+
+.navbar-normal {
+  padding: 1.5rem 1rem !important;
+  transition: all 0.3s ease;
+}
+
+.navbar-shrink {
+  padding: 0.5rem 1rem !important;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand,
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #d8b249 !important;
+}
+
+.navbar,
+.footer-bottom {
+  background-color: #583101;
+}
+
+.footer-text {
+  background-color: #6f4518;
+}
+
+.hover-icon:hover {
+  background-color: white;
+  color: #ac8b6f !important;
+  transition: all 0.3s ease;
+  border-color: white;
+}
+
+/* * Title Component */
+h2 {
+  color: #6f4518 !important;
+  font-family: "Dancing Script";
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.custom-divider .line {
+  width: 120px;
+  height: 3px;
+  background-color: #6f4518;
+}
+
+.custom-divider span {
+  color: #6f4518;
+  font-size: 30px !important;
+}
+
+/* *=== Shared background and text styles for main pages === */
+.home,
+.contact,
+.about,
+.portfolio,
+.NotFound {
+  background-color: #f5f5f5;
+}
+
+.NotFound h3,
+.about p,
+.home h3 {
+  color: #ac8b6f !important;
+}
+
+.about {
+  height: 80vh;
+}
+
+/* * Style For Portfolio Component */
+.custom-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card:hover .custom-img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  background-color: rgba(179, 162, 130, 0.8);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.custom-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(184, 174, 155, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.custom-modal-content {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-modal-content img {
+  height: 75%;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5);
+}
+
+/* * Style For Contact Component */
+.form-control {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.form-control:focus {
+  border-color: #ac8b6f !important;
+  box-shadow: 0 0 0 0.2rem rgba(110, 92, 54, 0.25) !important;
+}
+
+.form-floating>.form-control:focus~label {
+  color: #ac8b6f;
+  font-weight: bold;
+}
+
+.submit {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ac8b6f;
+  transition: all 0.5s;
+}
+
+.submit:hover {
+  background-color: #583101;
+}
